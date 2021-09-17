@@ -13,6 +13,11 @@ Rails.application.routes.draw do
 
   # post 'users', to: 'users#create' 
   resources :users, except: [:new]
+
+  #routes for the session
+  get 'login', to: 'sessions#new'
+  post 'login', to: 'sessions#create'
+  delete 'logout', to: 'sessions#destroy'
   
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
