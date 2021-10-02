@@ -68,6 +68,17 @@ $navbar-default-bg: #08089A;
 	
 }
 
+.badge {
+	background-color: #cef6f5;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+.input_checkbox input {
+	width: auto !important;
+	
+}
+
 .article-body {
 	border-top: 1px solid #eaeaea;
 	padding-top: 15px;
